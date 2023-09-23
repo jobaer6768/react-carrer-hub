@@ -1,3 +1,4 @@
+import FeaturedJobs from "../FeaturedJobs/FeaturedJobs";
 
 
 const Home = () => {
@@ -28,7 +29,7 @@ const Home = () => {
 
                 <h2 className="text-4xl font-bold mb-2 text-center">Featured Jobs</h2>
                 <p className="text-center">Explore thousands of job opportunities with all the information you need. Its your future</p>
-
+                <FeaturedJobs></FeaturedJobs>
             </div>
 
         </div>
